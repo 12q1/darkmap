@@ -1,4 +1,17 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.leafletContainerContainer {
+  overflow: hidden;
+  position:absolute;
+  margin-top: 1000px;
+}
+
+.leafletContainer {
+  transform: scale(0.1);
+  height: 10000px;
+  width: 10000px;
+}
